@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="nav-logo">
         <Link to='/' style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none', color: 'inherit' }}>
           <img src={logo} alt="" />
-          <p>𝓒𝓵𝓸𝓽𝓫𝓪𝔃𝓪𝓪𝓻</p>
+          <p>𝒞𝓁𝑜𝓉𝒽𝒷𝒶𝓏𝒶𝒶𝓇</p>
         </Link>
       </div>
       <ul className="nav-menu">
