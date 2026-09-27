@@ -1,4 +1,4 @@
-# 🛒 Shopper — Modern E-Commerce Web Application
+# 🛒 Clothbazaar — Modern E-Commerce Web Application
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue?style=for-the-badge&logo=vercel)](https://vite-project-beta-self.vercel.app/)
 [![React](https://img.shields.io/badge/React-19.x-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
