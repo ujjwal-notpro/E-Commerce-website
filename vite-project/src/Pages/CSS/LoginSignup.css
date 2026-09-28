@@ -74,3 +74,10 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media (max-width: 600px) {
+    .loginsignup-container {
+        width: 100%;
+        padding: 40px;
+    }
+}

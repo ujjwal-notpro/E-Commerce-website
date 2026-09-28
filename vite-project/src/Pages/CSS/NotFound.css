@@ -51,3 +51,14 @@
     font-size: 18px;
     color: #666;
 }
+
+@media (max-width: 768px) {
+    .four_zero_four_bg h1 {
+        font-size: 60px;
+    }
+
+    .link_404 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

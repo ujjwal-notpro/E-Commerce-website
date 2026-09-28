@@ -55,3 +55,43 @@
     justify-content: flex-end;
     padding-top: 50px;
 }
+
+@media (max-width: 768px) {
+
+    .offers,
+    .newsletter {
+        flex-direction: column;
+        width: 92%;
+        padding: 30px 15px;
+        height: auto;
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    .offers-left h1,
+    .newsletter h1 {
+        font-size: 26px;
+    }
+
+    .offers-right img {
+        max-width: 220px;
+        height: auto;
+    }
+
+    .newsletter div {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .newsletter input {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .newsletter button {
+        width: 100%;
+        border-radius: 8px;
+    }
+}

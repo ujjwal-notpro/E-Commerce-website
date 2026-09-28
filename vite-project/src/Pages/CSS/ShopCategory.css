@@ -55,3 +55,34 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+
+    .popular-item,
+    .collections,
+    .shopcategory-products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .popular-item,
+    .collections,
+    .shopcategory-products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        padding: 0 10px;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .item img {
+        width: 100%;
+        height: auto;
+    }
+}

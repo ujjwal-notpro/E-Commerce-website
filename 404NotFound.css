@@ -33,3 +33,23 @@
 .contant_box_404 {
     margin-top: -50px;
 }
+
+@media (max-width: 768px) {
+
+    .cartitems-format-main,
+    .cartitems-format {
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 0.5fr;
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .cartitems-down {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .cartitems-total,
+    .cartitems-promocode {
+        width: 100%;
+    }
+}
